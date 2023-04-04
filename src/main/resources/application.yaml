@@ -1,0 +1,13 @@
+server:
+  port: 8761
+
+#application name
+spring:
+  application:
+    name: ead-service-registry
+
+#evita que o eureka busque uma configuração dele mesmo para que não seja cliente dela mesma
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
