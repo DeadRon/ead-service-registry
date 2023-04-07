@@ -6,7 +6,7 @@ spring:
   application:
     name: ead-service-registry
 
-#evita que o eureka busque uma configuração dele mesmo para que não seja cliente dela mesma
+#evita que o eureka busque uma configuracao dele mesmo para nao ser cliente dela mesma
 eureka:
   client:
     registerWithEureka: false
